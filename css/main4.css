@@ -1,0 +1,36 @@
+#main4 {
+    background-color: black;
+    z-index: 1;
+    top: auto; 
+    min-height: 300px; 
+    width: 100%;
+    max-width: auto;
+
+
+}
+
+
+.info{
+
+    width: 100%;
+    max-width: 1440px;
+
+}
+
+@media (max-width: 768px) {
+    #main4 {
+        padding: 20px; 
+    }
+}
+
+@media (max-width: 480px) {
+    #main4 {
+        padding: 10px; 
+    }
+
+    .info {
+        font-size: 14px; 
+    }
+}
+
+
