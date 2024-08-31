@@ -1,0 +1,88 @@
+main{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:70px;
+
+    width: 100%;
+
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 40px; 
+        align-items: flex-start; 
+    }
+}
+
+.main_info{
+
+    width: 100%;
+    max-width: 570px;
+
+}
+
+@media (max-width: 768px) {
+    .main_info {
+        max-width: 100%;
+        padding: 0 20px; 
+    }
+}
+
+
+.main_info p{
+
+    font-size: 18px;
+    margin: 20px 0 28px;
+}
+
+@media (max-width: 768px) {
+    .main_info p {
+        font-size: 16px; 
+        margin: 15px 0 20px; 
+    }
+}
+
+.main_info div {
+    display: flex;
+    column-gap: 32px;
+}
+
+@media (max-width: 768px) {
+    .main_info div {
+        flex-direction: column;
+        column-gap: 20px; 
+    }
+}
+
+.main_info div a.button {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    box-sizing: border-box; 
+    display: inline-block; 
+    text-decoration: none; 
+}
+
+.main_info div a.button.watch-trailer {
+    background: var(--red); 
+    color: #fff; 
+}
+
+.main_info div a.button {
+    background: transparent; 
+    border: 1px solid var(--red); 
+    color: var(--red); 
+}
+
+
+
+
