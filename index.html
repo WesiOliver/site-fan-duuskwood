@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site feito por fã do jogo Duskwood - Crime e detetive.">
+    <meta name="keywords" content="Duskwood - Crime e detetive, Crime, detetive, Duskwood">
+    <meta name="author" content="WesiOliver">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="IMG/icon_duskwood.webp" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Duskwood</title>
+</head>
+
+<body>
+
+
+    <!-- Div para o video de background -->
+
+    <div id="background">
+        <video loop autoplay muted>
+            <source src="VIDEO/background.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="app">
+        <header>
+
+            <a href="index.html"><img src="IMG/logo_corvo.png" alt="Logo  do Game"></a>
+
+            <ul class="navigation">
+                <li><a href="index.html" class="navigation__link">Home</a></li>
+                <li><a href="#desenvolvedora" class="navigation__link">Desenvolvedora</a></li>
+                <li><a href="#walpaper" class="navigation__link">Wallpapers</a></li>
+                <li><a href="#sobre" class="navigation__link">Sobre</a></li>
+
+
+
+            </ul>
+
+            <div class="navigation_social">
+                <a href="https://www.facebook.com/PlayDuskwood" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path fill="#EDF1F7"
+                            d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                    </svg>
+                </a>
+
+                <a href="https://www.instagram.com/everbytestudio/" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="#EDF1F7"
+                            d="M12 2.16c3.03 0 3.39.01 4.59.07 1.1.05 1.91.23 2.6.62.67.4 1.16.99 1.56 1.56.39.69.57 1.5.62 2.6.06 1.2.07 1.56.07 4.59s-.01 3.39-.07 4.59c-.05 1.1-.23 1.91-.62 2.6-.4.67-.99 1.16-1.56 1.56-.69.39-1.5.57-2.6.62-1.2.06-1.56.07-4.59.07s-3.39-.01-4.59-.07c-1.1-.05-1.91-.23-2.6-.62-.67-.4-1.16-.99-1.56-1.56-.39-.69-.57-1.5-.62-2.6-.06-1.2-.07-1.56-.07-4.59s.01-3.39.07-4.59c.05-1.1.23-1.91.62-2.6.4-.67.99-1.16 1.56-1.56.69-.39 1.5-.57 2.6-.62 1.2-.06 1.56-.07 4.59-.07zm0 1.5c-3.03 0-3.39.01-4.59.07-1.1.05-1.91.23-2.6.62-.67.4-1.16.99-1.56 1.56-.39.69-.57 1.5-.62 2.6-.06 1.2-.07 1.56-.07 4.59s.01 3.39.07 4.59c.05 1.1.23 1.91.62 2.6.4.67.99 1.16 1.56 1.56.69.39 1.5.57 2.6.62 1.2.06 1.56.07 4.59.07s3.39-.01 4.59-.07c1.1-.05 1.91-.23 2.6-.62.67-.4 1.16-.99 1.56-1.56.39-.69.57-1.5.62-2.6.06-1.2.07-1.56.07-4.59s-.01-3.39-.07-4.59c-.05-1.1-.23-1.91-.62-2.6-.4-.67-.99-1.16-1.56-1.56-.69-.39-1.5-.57-2.6-.62-1.2-.06-1.56-.07-4.59-.07zm0 3.99a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zm0 1.5a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm4.8-2.4a.75.75 0 1 1 .75-.75.75.75 0 0 1-.75.75z" />
+                    </svg>
+
+
+                </a>
+
+                <a href="https://www.youtube.com/@everbyte4395" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path fill="#EDF1F7"
+                            d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" />
+                    </svg>
+                </a>
+            </div>
+        </header>
+
+
+
+
+        <main>
+            <div class="main_info">
+                <img src="IMG/logojogo.png" width="300px" alt="">
+
+                <p>Duskwood Crime & Detective é um jogo de investigação onde você assume o papel de um detetive tentando
+                    resolver o mistério do desaparecimento de Hannah, uma jovem que sumiu em circunstâncias misteriosas.
+                    Através
+                    de conversas com os amigos dela e a análise de pistas, suas escolhas moldam o desenrolar da história
+                    enquanto você tenta desvendar o caso.
+                </p>
+
+                <div>
+                    <a href="https://youtu.be/JX8AZPSbPno?si=UF-yj15wmkrrKyxL" class="button watch-trailer"
+                        target="_blank">Assistir trailer</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.everbytestudio.interactive.text.chat.story.rpg.cyoa.duskwood"
+                        class="button" target="_blank">Baixar PlayStore</a>
+                    <a href="https://apps.apple.com/br/app/duskwood-thriller-de-detetive/id1479430106" class="button"
+                        target="_blank"> Baixar AppStore</a>
+                </div>
+            </div>
+
+            <img src="IMG/fundo.png" width="680px" alt="">
+
+        </main>
+
+        <main id="main2">
+            <div class="info_main2">
+                <a name="desenvolvedora">
+                    <h2>Desenvolvedora</h2>
+                </a>
+                <p>A desenvolvedora por trás do jogo Duukswood: Crime e Detetive é a Everbyte Studio. Fundada na
+                    Alemanha, a Everbyte Studio é conhecida por suas experiências de jogos envolventes e desafiadoras no
+                    gênero de mistério e aventura. A empresa ganhou destaque por criar títulos que combinam enredos
+                    intrigantes com mecânicas de investigação imersivas. Entre seus jogos notáveis estão The Raven e The
+                    Mystery of the Druids, que refletem a capacidade da Everbyte em criar narrativas cativantes e
+                    quebra-cabeças desafiadores. Para mais informações sobre a Everbyte Studio e seus lançamentos,
+                    visite o site oficial da empresa ou suas páginas nas redes sociais.</p>
+            </div>
+            <img src="IMG/ev.png" width="680" alt="">
+        </main>
+
+
+
+        <main id="main3">
+
+            <a name="walpaper"></a>
+            <h2 class="title">Walpapers</h2>
+
+            <div class="galeria">
+                <img src="IMG/walpaper1.jpg" alt="Wallpaper1">
+                <img src="IMG/walpaper2.jpg" alt="Wallpaper2">
+                <img src="IMG/walpaper3.jpg" alt="Wallpaper3">
+                <img src="IMG/walpaper4.jpg" alt="Wallpaper4">
+                <img src="IMG/walpaper5.jpg" alt="Wallpaper5">
+            </div>
+
+        </main>
+
+        <main id="main4">
+
+            <div class="info">
+                <a name="sobre">
+                    <h2>Sobre</h2>
+                </a>
+                <p>Bem-vindo ao meu site! Criado como um projeto de estudo para aprimorar minhas habilidades em HTML e
+                    CSS, este site ainda está em desenvolvimento. Agradeço pela visita e espero que você encontre algo
+                    interessante e útil enquanto explora a página.</p> <br>
+
+                <p>Acesse minhas redes sociais:</p>
+
+                <p>
+
+                    <a href="https://www.instagram.com/wesi_oliver?igsh=MWFmamFqZWU1djE0YQ==" target="_blank"><img
+                            src="IMG/Instagram_icon.png" width="20px" height="20px" alt="Instagram"> Instagram</a>
+
+                    <a href="https://github.com/WesHashi"><img src="IMG/github.png" width="20px" height="20px"
+                            alt="GitHub"> GitHub</a>
+
+                    <a href="https://www.linkedin.com/in/wesicley-santos-oliveira/" target="_blank"> <img
+                            src="IMG/linkedin.png" width="20px" height="20px" alt="Linkedin"> Linkedin</a>
+
+                </p>
+            </div>
+        </main>
+
+        <footer>
+
+            <p class="paragrafo">&copy; 2024 wesi_oliver. Portfólio.</p>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
